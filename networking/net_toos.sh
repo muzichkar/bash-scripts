@@ -21,7 +21,7 @@ fi
 }
 
 while true; do
- read -p "Введіть хост:  " host
+ read -p "Введіть хост:   " host
  read -p  " Введіть порт:  " port
 
  ping_site "$host"
